@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#priceLabel {
+  padding-left: 20px;
+}
+.CartCostWeak {
+  color: #999999;
+  font-weight: normal;
+  margin-bottom: -5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  line-height: 22px;
+  vertical-align: top;
+}
+.ecommSubsTermLabel,
+.ecommTaxInfoLabel,
+.ecommPriceTypeLabel {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-style: inherit;
+  font-weight: inherit;
+  color: #999999;
+}
+.TextStrikeThrough {
+  margin-right: 1px;
+  text-decoration: line-through;
+}
+.cart-price-dollar {
+  display: inline;
+  font-size: 1.425em;
+  font-weight: normal;
+  margin-right: 0px;
+  position: relative;
+  vertical-align: top;
+  font-style: normal;
+}
+.cart-price-cent,
+.cart-price-currency-symbol {
+  line-height: 17px;
+  position: relative;
+  vertical-align: inherit;
+  margin-right: 0px;
+  display: inline;
+  font-size: 0.85em;
+  margin-right: inherit;
+  font-weight: normal;
+  font-style: normal;
+}
+.cart-price-decimal-delimiter {
+  display: none;
+}
+.cart-price-integer-delimiter {
+  color: #999999;
+}
