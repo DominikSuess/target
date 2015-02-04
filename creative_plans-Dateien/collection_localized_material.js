@@ -1,0 +1,1 @@
+CCweb.collection_localized_material=Backbone.Collection.extend({initialize:function(){this.model=CCweb.model_localized_material}});

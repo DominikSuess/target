@@ -1,0 +1,1 @@
+define(["jquery","backbone","common/utils/templates","text!./template.html","css!./template.css"],function(e,t,n,i){return t.View.extend({render:function(){this.$el.html(n.createTemplate(i));this.$el.find(".ccweb-loadingimage");return this}})});

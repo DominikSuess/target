@@ -1,0 +1,1 @@
+CCweb.collection_localized_products=Backbone.Collection.extend({initialize:function(){this.model=CCweb.model_localized_product},getLocalizedProductName:function(e){return this.get(e)?this.get(e).get("name"):""},getLocalizedProductDescription:function(e){return this.get(e)?this.get(e).get("description"):""}});

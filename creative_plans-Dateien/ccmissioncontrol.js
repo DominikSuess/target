@@ -1,0 +1,1 @@
+define(["jquery","require"],function(n,o){function i(){e.load(),e.trigger("mission_control_bar_toggled")}var e,r=192;n(document).on("keyup",function(n){n.ctrlKey&&n.which==r&&(e?i():o(["./missioncontrol_view"],function(n){e=new n,i()}))})});

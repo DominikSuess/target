@@ -1,0 +1,1 @@
+define(["common/utils/log"],function(t){return function(e){var n=(new Date).getTime();return function(o,r,a){var u="object"==typeof o&&o.status?o.status:"object"==typeof a&&a.status?a.status:r;"error"==u&&(u="abort"),t(e+"."+u,{duration:(new Date).getTime()-n,stat:"timer"})}}});

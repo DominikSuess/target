@@ -1,0 +1,1 @@
+CCweb.model_tab=Backbone.Model.extend({});

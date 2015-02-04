@@ -1,0 +1,1 @@
+CCweb.collection_country_prices=Backbone.Collection.extend({initialize:function(e,t){this.model=CCweb.model_country_price,this.offer=t.offer,this.offerId=t.offerId},getCountryPriceModel:function(e){return e?this.get(e):this.first()},getProductCode:function(){return this.offer.get("productCode")},parse:function(e,t){return t=t||{},e},getOffer:function(){return this.offer}});

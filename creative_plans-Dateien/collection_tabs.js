@@ -1,0 +1,1 @@
+CCweb.collection_tabs=Backbone.Collection.extend({initialize:function(){this.model=CCweb.model_tab,this.reset(CCweb.tabs)}});

@@ -1,0 +1,1 @@
+CCweb.view_layout=Backbone.View.extend({id:"ccweb_layout",render:function(){return this.$el.html('<div id="header"><p class="t1"></p><p class="t2"></p><p class="t3"></p><p class="t4"></p></div><div id="content"></div><div id="footer"></div>'),this}});

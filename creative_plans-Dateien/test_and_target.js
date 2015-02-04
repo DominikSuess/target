@@ -1,0 +1,1 @@
+CCweb.TT={mboxDefine:function(a){a=a||{};var m=[a.htmlClass,a.mboxName];for(var p in a.params)m.push(p+"="+a.params[p]);mboxDefine&&mboxDefine.apply(null,m)},mboxUpdate:function(a){a=a||{};var m=[a.mboxName];for(var p in a.params)m.push(p+"="+a.params[p]);mboxUpdate&&mboxUpdate.apply(null,m)}};

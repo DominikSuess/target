@@ -1,0 +1,1 @@
+CCweb.model_localized_material=Backbone.Model.extend({idAttribute:"country"});

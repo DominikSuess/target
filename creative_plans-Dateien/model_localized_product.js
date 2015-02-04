@@ -1,0 +1,1 @@
+CCweb.model_localized_product=Backbone.Model.extend({idAttribute:"productCode"});
