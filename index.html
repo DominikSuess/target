@@ -849,8 +849,7 @@ s.linkTrackEvents = lte;
 
 
 <figure class="grid-container overview ">
-    <aside style="height: auto;" data-background="" data-background-selector=".product-background:before" data-background-position="50% 50%" data-seed-background="" data-seed-artist="credits" class="grid-row product-background"><image style="margin-top:-162px" src="https://wwwimages2.adobe.com/content/dam/acom/en/products/creativecloud/images/marquee-cc-1440x810.jpg" alt="bg image">
-        
+    <aside style="height: auto;" data-background="" data-background-selector=".product-background:before" data-background-position="50% 50%" data-seed-background="" data-seed-artist="credits" class="grid-row product-background"><image id="background-image-header" style="margin-top:-162px" src="https://wwwimages2.adobe.com/content/dam/acom/en/products/creativecloud/images/marquee-cc-1440x810.jpg" alt="bg image">
         
     </aside><cite class="bottom-right">
 	<p>
@@ -861,7 +860,12 @@ s.linkTrackEvents = lte;
 </cite>
 
     <figcaption class="grid-row marquee" style="height: 68vh;" data-seed-marquee="">
-        <img style=" opacity:0;margin-top:-162px" src="https://wwwimages2.adobe.com/content/dam/acom/en/products/creativecloud/images/marquee-cc-1440x810.jpg" alt="bg image">
+        <img id="image-header-editable" style=" opacity:0;margin-top:-162px" src="https://wwwimages2.adobe.com/content/dam/acom/en/products/creativecloud/images/marquee-cc-1440x810.jpg" alt="bg image">
+        <script type="text/javascript">
+       setInterval(function(){ 
+      	$('#background-image-header').attr('src', $('#image-header-editable').attr('src'));
+      },100);
+    </script>
     <div class="marquee-textbox text-box-4 text-thin pos-bottom-center" style="width:55%; background-color: rgba(255,255,255,0);">
         <div class="marquee-content">
             <h1>Now, your greatest work can happen anywhere.</h1>
@@ -937,7 +941,7 @@ devices. There are plans for everyone, including <a href="https://www.adobe.com/
             
             <section class="grid-container ">
                 
-    <div class="grid-row grid-padded-t8x">
+    <div class="grid-row grid-padded-t8x" style="background-color:#ffffff;">
         <div class="grid-cols-10 grid-offset-3">
             
     
